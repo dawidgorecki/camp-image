@@ -96,3 +96,38 @@ body {
     border-right: 77px solid transparent;
     border-bottom: 123px solid #02292b;
 }
+
+.tent {
+    position: absolute;
+    bottom: 65px;
+    left: 260px;
+    z-index: 4;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 250px solid #e98f23;
+
+}
+
+ .tent__enter-shaddow {
+    position: absolute;
+    bottom: -250px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 5;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 170px solid #be6f29;
+
+}
+
+.tent__enter {
+    position: absolute;
+    bottom: -250px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 6;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 170px solid #1b1e1e;
+
+}

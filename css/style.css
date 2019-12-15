@@ -194,3 +194,28 @@ body {
     left: 150px;
     top: -200px;
 }
+
+.image__greeting {
+    font-family: 'Great Vibes', cursive;
+    color: #ffffff;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    font-size: 48px;
+    font-weight: normal;
+    transform-origin: top left;
+    transform: rotate(-6deg);
+    z-index: 7
+}
+
+.image__year {
+    font-family: 'Great Vibes', cursive;
+    color: #ffffff;
+    position: absolute;
+    right: 80px;
+    top: 10px;
+    font-size: 64px;
+    font-weight: normal;
+    transform-origin: top left;
+    z-index: 7
+}
